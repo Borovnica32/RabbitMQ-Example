@@ -86,7 +86,8 @@ for (int i = 0; i < 60; i++)
         Id = i,
         Message = $"Message #{i}",
         messageTimeStamp = $"Time of message: {DateTime.Now}",
-        userName = $"Sender name: {Environment.UserName}"
+        userName = $"Sender name: {Environment.UserName}",
+        osVersion = $"OS: {Environment.OSVersion}"
     };
 
     // Calculate message size
