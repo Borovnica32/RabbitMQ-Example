@@ -9,6 +9,8 @@ namespace RabbitShared
         public required string messageTimeStamp { get; set; }
 
         public required string userName { get; set; }
+
+        public required string osVersion { get; set; }
             
         public int MessageSizeBytes { get; set; }
     }
