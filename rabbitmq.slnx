@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="rabbitmq/RabbitSender.csproj" />
+  <Project Path="RabbitReciver1/RabbitReciver1.csproj" />
+  <Project Path="RabbitReciver2/RabbitReciver2.csproj" Id="b4aa5b3b-a1ff-4e7f-9f98-574d7eba3682" />
+  <Project Path="RabbitShared/RabbitShared.csproj" Id="850dc516-5cd3-49fa-ab10-8218bbc4c835" />
+</Solution>

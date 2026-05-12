@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\developer\\Documents\\Visual Studio\\rabbitmq\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{850DC516-5CD3-49FA-AB10-8218BBC4C835}|RabbitShared\\RabbitShared.csproj|c:\\users\\developer\\documents\\visual studio\\rabbitmq\\rabbitshared\\messageformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{850DC516-5CD3-49FA-AB10-8218BBC4C835}|RabbitShared\\RabbitShared.csproj|solutionrelative:rabbitshared\\messageformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4FF35E4-2D41-11B8-4B1D-F3C7A86E2EE8}|RabbitReciver1\\RabbitReciver1.csproj|c:\\users\\developer\\documents\\visual studio\\rabbitmq\\rabbitreciver1\\reciver1program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4FF35E4-2D41-11B8-4B1D-F3C7A86E2EE8}|RabbitReciver1\\RabbitReciver1.csproj|solutionrelative:rabbitreciver1\\reciver1program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4916C026-979E-E327-EEC6-36EA1E902253}|rabbitmq\\RabbitSender.csproj|c:\\users\\developer\\documents\\visual studio\\rabbitmq\\rabbitmq\\senderprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4916C026-979E-E327-EEC6-36EA1E902253}|rabbitmq\\RabbitSender.csproj|solutionrelative:rabbitmq\\senderprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4AA5B3B-A1FF-4E7F-9F98-574D7EBA3682}|RabbitReciver2\\RabbitReciver2.csproj|c:\\users\\developer\\documents\\visual studio\\rabbitmq\\rabbitreciver2\\reciver2program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4AA5B3B-A1FF-4E7F-9F98-574D7EBA3682}|RabbitReciver2\\RabbitReciver2.csproj|solutionrelative:rabbitreciver2\\reciver2program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageFormat.cs",
+              "DocumentMoniker": "C:\\Users\\developer\\Documents\\Visual Studio\\rabbitmq\\RabbitShared\\MessageFormat.cs",
+              "RelativeDocumentMoniker": "RabbitShared\\MessageFormat.cs",
+              "ToolTip": "C:\\Users\\developer\\Documents\\Visual Studio\\rabbitmq\\RabbitShared\\MessageFormat.cs",
+              "RelativeToolTip": "RabbitShared\\MessageFormat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T06:53:15.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reciver2Program.cs",
+              "DocumentMoniker": "C:\\Users\\developer\\Documents\\Visual Studio\\rabbitmq\\RabbitReciver2\\Reciver2Program.cs",
+              "RelativeDocumentMoniker": "RabbitReciver2\\Reciver2Program.cs",
+              "ToolTip": "C:\\Users\\developer\\Documents\\Visual Studio\\rabbitmq\\RabbitReciver2\\Reciver2Program.cs",
+              "RelativeToolTip": "RabbitReciver2\\Reciver2Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T06:53:52.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SenderProgram.cs",
+              "DocumentMoniker": "C:\\Users\\developer\\Documents\\Visual Studio\\rabbitmq\\rabbitmq\\SenderProgram.cs",
+              "RelativeDocumentMoniker": "rabbitmq\\SenderProgram.cs",
+              "ToolTip": "C:\\Users\\developer\\Documents\\Visual Studio\\rabbitmq\\rabbitmq\\SenderProgram.cs",
+              "RelativeToolTip": "rabbitmq\\SenderProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T11:53:22.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reciver1Program.cs",
+              "DocumentMoniker": "C:\\Users\\developer\\Documents\\Visual Studio\\rabbitmq\\RabbitReciver1\\Reciver1Program.cs",
+              "RelativeDocumentMoniker": "RabbitReciver1\\Reciver1Program.cs",
+              "ToolTip": "C:\\Users\\developer\\Documents\\Visual Studio\\rabbitmq\\RabbitReciver1\\Reciver1Program.cs",
+              "RelativeToolTip": "RabbitReciver1\\Reciver1Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T11:53:21.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

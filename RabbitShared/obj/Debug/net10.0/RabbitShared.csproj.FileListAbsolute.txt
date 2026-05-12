@@ -1,0 +1,11 @@
+C:\Users\developer\Documents\Visual Studio\rabbitmq\RabbitShared\bin\Debug\net10.0\RabbitShared.deps.json
+C:\Users\developer\Documents\Visual Studio\rabbitmq\RabbitShared\bin\Debug\net10.0\RabbitShared.dll
+C:\Users\developer\Documents\Visual Studio\rabbitmq\RabbitShared\bin\Debug\net10.0\RabbitShared.pdb
+C:\Users\developer\Documents\Visual Studio\rabbitmq\RabbitShared\obj\Debug\net10.0\RabbitShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\developer\Documents\Visual Studio\rabbitmq\RabbitShared\obj\Debug\net10.0\RabbitShared.AssemblyInfoInputs.cache
+C:\Users\developer\Documents\Visual Studio\rabbitmq\RabbitShared\obj\Debug\net10.0\RabbitShared.AssemblyInfo.cs
+C:\Users\developer\Documents\Visual Studio\rabbitmq\RabbitShared\obj\Debug\net10.0\RabbitShared.csproj.CoreCompileInputs.cache
+C:\Users\developer\Documents\Visual Studio\rabbitmq\RabbitShared\obj\Debug\net10.0\RabbitShared.dll
+C:\Users\developer\Documents\Visual Studio\rabbitmq\RabbitShared\obj\Debug\net10.0\refint\RabbitShared.dll
+C:\Users\developer\Documents\Visual Studio\rabbitmq\RabbitShared\obj\Debug\net10.0\RabbitShared.pdb
+C:\Users\developer\Documents\Visual Studio\rabbitmq\RabbitShared\obj\Debug\net10.0\ref\RabbitShared.dll

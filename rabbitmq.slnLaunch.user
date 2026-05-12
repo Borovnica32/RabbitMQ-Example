@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "rabbitmq\\RabbitSender.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "RabbitReciver1\\RabbitReciver1.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "RabbitReciver2\\RabbitReciver2.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
