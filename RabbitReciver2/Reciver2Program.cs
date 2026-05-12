@@ -1,4 +1,4 @@
-﻿// RECEIVER 2
+// RECEIVER 2
 
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
@@ -11,11 +11,11 @@ ConnectionFactory factory = new();
 
 // Location where RabbitMQ is running
 //
-// amqp://  -> RabbitMQ protocol
-// guest    -> username
-// guest    -> password
-// localhost-> RabbitMQ server address
-// 5672     -> RabbitMQ default port
+// amqp://   -> RabbitMQ protocol
+// guest     -> username
+// guest     -> password
+// localhost -> RabbitMQ server address
+// 5672      -> RabbitMQ default port
 factory.Uri = new Uri("amqp://guest:guest@localhost:5672");
 
 // Human-readable connection name
@@ -28,13 +28,13 @@ IConnection cnn = await factory.CreateConnectionAsync();
 IChannel channel = await cnn.CreateChannelAsync();
 
 // Exchange routes messages to queues
-string exchangeName = "DemoExchange";
+string exchangeName = "MQExchange";
 
 // Routing key used for message routing
-string routingKey = "demo-routing-key";
+string routingKey = "mq-routing-key";
 
 // Queue stores messages until consumers process them
-string queueName = "DemoQueue";
+string queueName = "MQQueue";
 
 // Create exchange if it doesn't exist
 await channel.ExchangeDeclareAsync(exchangeName, ExchangeType.Direct);
@@ -80,10 +80,11 @@ consumer.ReceivedAsync += async (sender, args) =>
     // Convert JSON -> object
     MessageFormat? message = JsonSerializer.Deserialize<MessageFormat>(json);
 
-    Console.WriteLine($"Id: {message?.Id}");
+    /*Console.WriteLine($"Id: {message?.Id}");
     Console.WriteLine($"Message: {message?.Message}");
+    Console.WriteLine($"Message: {message?.timeStamp}");*/
 
-    // ACK
+    // ACK of the message (is taken out of the queue)
     await channel.BasicAckAsync(args.DeliveryTag, false);
 };
 
