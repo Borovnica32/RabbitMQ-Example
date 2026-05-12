@@ -84,7 +84,7 @@ for (int i = 0; i < 60; i++)
     MessageFormat data = new()
     {
         Id = i,
-        Message = $"Message #{i}",
+        Message = $"Message from: {System.Net.Dns.GetHostName()}",
         messageTimeStamp = $"Time of message: {DateTime.Now}",
         userName = $"Sender name: {Environment.UserName}",
         osVersion = $"OS: {Environment.OSVersion}"
